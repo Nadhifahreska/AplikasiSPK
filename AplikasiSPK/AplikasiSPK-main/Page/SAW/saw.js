@@ -1,34 +1,34 @@
 function hitung() {
   // Ambil nilai matriks dari input
-  let a11 = parseFloat(document.querySelector("#Laptop1").value);
-  let a12 = parseFloat(document.querySelector("#a1k2").value);
-  let a13 = parseFloat(document.querySelector("#a1k3").value);
-  let a14 = parseFloat(document.querySelector("#a1k4").value);
-  let a15 = parseFloat(document.querySelector("#a1k5").value);
+  let a11 = parseFloat(document.querySelector("#Laptop1Kategori1").value);
+  let a12 = parseFloat(document.querySelector("#Laptop1Kategori2").value);
+  let a13 = parseFloat(document.querySelector("#Laptop1Kategori3").value);
+  let a14 = parseFloat(document.querySelector("#Laptop1Kategori4").value);
+  let a15 = parseFloat(document.querySelector("#Laptop1Kategori5").value);
 
-  let a21 = parseFloat(document.querySelector("#a2k1").value);
-  let a22 = parseFloat(document.querySelector("#a2k2").value);
-  let a23 = parseFloat(document.querySelector("#a2k3").value);
-  let a24 = parseFloat(document.querySelector("#a2k4").value);
-  let a25 = parseFloat(document.querySelector("#a2k5").value);
+  let a21 = parseFloat(document.querySelector("#Laptop2Kategori1").value);
+  let a22 = parseFloat(document.querySelector("#Laptop2Kategori2").value);
+  let a23 = parseFloat(document.querySelector("#Laptop2Kategori3").value);
+  let a24 = parseFloat(document.querySelector("#Laptop2Kategori4").value);
+  let a25 = parseFloat(document.querySelector("#Laptop2Kategori5").value);
 
-  let a31 = parseFloat(document.querySelector("#a3k1").value);
-  let a32 = parseFloat(document.querySelector("#a3k2").value);
-  let a33 = parseFloat(document.querySelector("#a3k3").value);
-  let a34 = parseFloat(document.querySelector("#a3k4").value);
-  let a35 = parseFloat(document.querySelector("#a3k5").value);
+  let a31 = parseFloat(document.querySelector("#Laptop3Kategori1").value);
+  let a32 = parseFloat(document.querySelector("#Laptop3Kategori2").value);
+  let a33 = parseFloat(document.querySelector("#Laptop3Kategori3").value);
+  let a34 = parseFloat(document.querySelector("#Laptop3Kategori4").value);
+  let a35 = parseFloat(document.querySelector("#Laptop3Kategori5").value);
 
-  let a41 = parseFloat(document.querySelector("#a4k1").value);
-  let a42 = parseFloat(document.querySelector("#a4k2").value);
-  let a43 = parseFloat(document.querySelector("#a4k3").value);
-  let a44 = parseFloat(document.querySelector("#a4k4").value);
-  let a45 = parseFloat(document.querySelector("#a4k5").value);
+  let a41 = parseFloat(document.querySelector("#Laptop4Kategori1").value);
+  let a42 = parseFloat(document.querySelector("#Laptop4Kategori2").value);
+  let a43 = parseFloat(document.querySelector("#Laptop4Kategori3").value);
+  let a44 = parseFloat(document.querySelector("#Laptop4Kategori4").value);
+  let a45 = parseFloat(document.querySelector("#Laptop4Kategori5").value);
 
-  let a51 = parseFloat(document.querySelector("#a5k1").value);
-  let a52 = parseFloat(document.querySelector("#a5k2").value);
-  let a53 = parseFloat(document.querySelector("#a5k3").value);
-  let a54 = parseFloat(document.querySelector("#a5k4").value);
-  let a55 = parseFloat(document.querySelector("#a5k5").value);
+  let a51 = parseFloat(document.querySelector("#Laptop5Kategori1").value);
+  let a52 = parseFloat(document.querySelector("#Laptop5Kategori2").value);
+  let a53 = parseFloat(document.querySelector("#Laptop5Kategori3").value);
+  let a54 = parseFloat(document.querySelector("#Laptop5Kategori4").value);
+  let a55 = parseFloat(document.querySelector("#Laptop5Kategori5").value);
 
   // Ambil nilai bobot dari input
   let w1 = parseFloat(document.querySelector("#k1").value);
